@@ -13,6 +13,6 @@ class TestCleanpath(TestCase):
         ]
         for tcase in tcases:
             messy, expect = tcase
-            got = clean(messy)
+            got = clean(messy, ':')
             if expect != got:
                 self.fail('Expected ' + expect + ', got ' + got)
