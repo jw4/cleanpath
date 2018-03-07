@@ -13,6 +13,8 @@ $ echo $FAKEPATH
 /usr/bin:/usr/local/bin:/usr/sbin
 ```
 
+See [this .bashrc](https://github.com/johnweldon/tiny-profile/blob/3166eabe36b16acc9ba0c3631c4b504c0447fc7e/.bashrc#L163-L176) for a real life example of usage.
+
 ### Notice:
   1. Redundant paths removed, but relative order of first occurence is maintained.
   1. Relative (unsafe) paths removed.
